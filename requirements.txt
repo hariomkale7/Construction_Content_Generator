@@ -1,0 +1,34 @@
+Create a Virtual Environment (Very Important)
+
+This keeps your project clean.
+
+Run this in terminal (inside backend folder):
+python -m venv venv
+
+
+Activate it:
+
+Windows
+
+venv\Scripts\activate
+
+
+Mac/Linux
+
+source venv/bin/activatePART 3: Install Required Libraries
+
+
+Install Required Libraries
+
+
+pip install google-generativeai fastapi uvicorn
+
+Why these?
+
+google-generativeai → talk to Gemini
+
+fastapi → backend API framework
+
+uvicorn → server runner
+
+

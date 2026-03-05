@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #f1f5f9, #e2e8f0);
+    margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #334155;
+}
+
+.report-section {
+    margin-top: 40px;
+}
+
+#textPreview {
+    height: 250px;
+    background: #ffffff;
+}
+
+#generatePdfBtn {
+    margin-top: 15px;
+    background-color: #2563eb;
+}
+
+#downloadBtn {
+    margin-top: 10px;
+    background-color: #16a34a;
+}

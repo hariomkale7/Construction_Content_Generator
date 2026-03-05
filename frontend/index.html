@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Construction Content Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Construction Content Generator</h2>
+
+    <div class="form-card">
+
+        <select id="content_type">
+            <option value="site_report">Site Report</option>
+            <option value="safety_report">Safety Report</option>
+            <option value="daily_log">Daily Log Summary</option>
+        </select>
+
+        <input type="text" id="project_name" placeholder="Project Name">
+        <input type="text" id="location" placeholder="Location">
+        <input type="date" id="report_date">
+        <textarea id="topic" placeholder="Describe activity"></textarea>
+
+        <button onclick="generateContent()">Generate Content</button>
+    </div>
+
+    <div class="report-section">
+        <h3>AI Generated Content</h3>
+        <textarea id="textPreview" readonly></textarea>
+
+        <button id="generatePdfBtn" style="display:none;">Generate PDF</button>
+        <button id="downloadBtn" style="display:none;">Download PDF</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
